@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tintoriaessetre - Sito in manutenzione</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 98vh;
+            background: rgb(241, 241, 241);
+            background-image: url(./img/back.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        h1,
+        h3 {
+            margin-top: 0;
+            margin-bottom: .5rem;
+        }
+
+        p {
+            margin: 0;
+            text-align: center;
+        }
+
+        h2 {
+            margin: 4rem 2rem;
+            font-size: 2rem;
+            border: 1px solid;
+            border-radius: 5px;
+            text-align: center;
+            padding: 10px;
+            font-weight: 300;
+            transform: rotate(-3deg);
+        }
+
+
+        ul {
+            padding: 0;
+            margin: 0;
+            column-count: 2;
+        }
+
+        li {
+            font-size: 14px;
+            list-style: none;
+            margin: 5px 0;
+        }
+
+        .wrapper {
+            max-width: 1200px;
+            margin: 0 auto;
+            font-family: 'Montserrat', sans-serif;
+            padding: 3rem;
+            background: #edededf2;
+            box-shadow: 11px 12px 1px #27272740;
+            animation: fadein 1s;
+            position: relative;
+            border-radius: 35px;
+        }
+
+        h2 img {
+            position: relative;
+            top: 10px;
+        }
+
+        @keyframes fadein {
+            from {
+                opacity: 0;
+                top: 100px;
+            }
+
+            to {
+                opacity: 1;
+                top: 0;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .wrapper {
+                padding: 1-5rem;
+                border-radius: 5px;
+
+            }
+
+
+
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            h2 {
+                margin: 2rem auto;
+                font-size: 1.5rem;
+                max-width: 400px;
+
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            section {
+                text-align: center;
+            }
+
+            ul {
+                column-count: 1;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Tintoria ESSETRE s.r.l.</h1>
+        <p>Tintoria e rifinizioni di tessuti fini e medio fini per conto terzi</p>
+        <section>
+            <h2> Sito in manutenzione</h2>
+            <h3>Contatti</h3>
+            <ul>
+                <li>Via Parugiano di Sotto, 46 - 59013</li>
+                <li>Oste-Montemurlo (PO)</li>
+                <li>Tel. +39 0574/790593-798890</li>
+                <li>Fax Amministrazione +39 0574/682411</li>
+                <li>Fax Uff. Tecnico ++39 0574/683612</li>
+                <li>Mail <a href="mailto: info@tintoriaessetre.it">info@tintoriaessetre.it
+
+                    </a></li>
+            </ul>
+        </section>
+    </div>
+</body>
+
+</html>
